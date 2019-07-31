@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="jumbotron">
+      <h1 class="title">{{ vm.service.name }}</h1>
+      <p>{{ vm.service.description }}</p>
+    </div>
+  </div>
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-5">
+        <ul>
+          <li>Precio: {{ vm.service.cost | currencyFormat }}</li>
+          <li>Final feliz: {{ vm.service.happy ? 'Sí' : 'No' }}</li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <img src="{{ vm.service.image }}" alt="Image">
+      </div>
+    </div>
+  </div>
+</div>

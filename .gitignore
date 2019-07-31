@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/web,git,node,bower
-# Edit at https://www.gitignore.io/?templates=web,git,node,bower
+# Created by https://www.gitignore.io/api/git,node,bower
+# Edit at https://www.gitignore.io/?templates=git,node,bower
 
 ### Bower ###
 bower_components
@@ -112,17 +112,4 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-### Web ###
-*.asp
-*.cer
-*.csr
-*.css
-*.htm
-*.html
-*.js
-*.jsp
-*.php
-*.rss
-*.xhtml
-
-# End of https://www.gitignore.io/api/web,git,node,bower
+# End of https://www.gitignore.io/api/git,node,bower

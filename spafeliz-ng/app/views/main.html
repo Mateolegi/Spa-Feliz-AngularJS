@@ -1,0 +1,22 @@
+<div class="jumbotron">
+  <h1 class="title">Spa feliz</h1>
+  <p class="lead">
+    El mejor spa para gente de gustos peculiares
+  </p>
+</div>
+
+<div class="row marketing">
+
+  <br>
+
+  <div class="service-banner" ng-repeat="item in vm.services">
+    <div class="col-md-5">
+      <div class="service-div" ng-style="{'background': 'url({{ item.image }})'}">
+        <h2 class="service-name"><a ui-sref="home.detail({id: item.id})">{{ item.name }}</a></h2>
+        {{item.description}}
+      </div>
+    </div>
+  </div>
+
+  <br>
+</div>
